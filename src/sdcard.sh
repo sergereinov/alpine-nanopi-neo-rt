@@ -15,7 +15,7 @@ handle_exit() {
   losetup -d /dev/${LOOP} || true
 }
 
-IMAGE=${OUTPUT_PATH}/sdcard-alpine-${TARGET_FAMILY}-${TARGET_BOARD}-${SDCARD_SIZE}M.img
+IMAGE=${IMAGE_OUTPUT_PATH}/sdcard-alpine-${TARGET_FAMILY}-${TARGET_BOARD}-${SDCARD_SIZE}M.img
 
 [ -d "${BUILD_PATH}" ] || mkdir "${BUILD_PATH}"
 

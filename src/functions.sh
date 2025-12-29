@@ -6,6 +6,7 @@ export NCURSES_NO_UTF8_ACS=1
 
 BUILD_PATH=/build
 OUTPUT_PATH=/out
+IMAGE_OUTPUT_PATH=/out_image
 WORK_PATH=$(mktemp -d /tmp/work.XXXXXX)
 
 # Basic

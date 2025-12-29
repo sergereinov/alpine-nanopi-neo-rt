@@ -9,8 +9,10 @@ services:
 
     volumes:
       - ./src:/src:ro
-      - ./out:/out:rw
+      - ./out_image:/out_image:rw
+      - out:/out:rw
       - build:/build:rw
 
 volumes:
+  out:
   build:
